@@ -44,7 +44,7 @@
 #warning [Incompatibility] ID2D1Factory7::Release
 #endif
 #if !defined(NV_AUTOMATED_BUILD)
-#error You may proceed by compiling out this line, but proceed at your own risk
+//#error You may proceed by compiling out this line, but proceed at your own risk
 #else
 #if defined(_MSC_VER)
 #pragma message("Warning: You may proceed by compiling out this line, but proceed at your own risk")
